@@ -245,7 +245,7 @@ if 'mqtt_client' not in st.session_state:
 def load_ml_models():
     """Load ML models and preprocessing objects"""
     try:
-        models_path = r"C:\Users\LENOVO\OneDrive\Documents\SIC\Belajar\streetlight\MachineLearningSL\Trainingmodel\models_hard"
+        models_path = r"\Trainingmodel\models_hard"
         
         # Load models
         models = {
@@ -858,4 +858,5 @@ def cleanup():
 
 # Register cleanup
 import atexit
+
 atexit.register(cleanup)
