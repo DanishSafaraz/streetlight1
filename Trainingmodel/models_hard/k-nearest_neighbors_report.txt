@@ -1,0 +1,11 @@
+Classification Report - K-Nearest Neighbors
+============================================================
+
+              precision    recall  f1-score   support
+
+       Malam       0.88      0.70      0.78        10
+       Siang       0.80      0.92      0.86        13
+
+    accuracy                           0.83        23
+   macro avg       0.84      0.81      0.82        23
+weighted avg       0.83      0.83      0.82        23

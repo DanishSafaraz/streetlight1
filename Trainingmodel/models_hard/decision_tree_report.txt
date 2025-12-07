@@ -1,0 +1,11 @@
+Classification Report - Decision Tree
+============================================================
+
+              precision    recall  f1-score   support
+
+       Malam       0.89      0.80      0.84        10
+       Siang       0.86      0.92      0.89        13
+
+    accuracy                           0.87        23
+   macro avg       0.87      0.86      0.87        23
+weighted avg       0.87      0.87      0.87        23
